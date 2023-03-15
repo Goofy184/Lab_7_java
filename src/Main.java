@@ -29,7 +29,6 @@ public class Main {
             System.out.println("Телеканал з номером " + index + " не знайдено.");
         }
     }
-
     private static void testRemovingElement(List<String> channels, Scanner scanner) {
         System.out.print("Введіть номер телеканалу для видалення: ");
         int index = scanner.nextInt();
